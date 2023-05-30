@@ -1,0 +1,117 @@
+*{
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.fondo{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+header{
+    height: 10%;
+    background-color: lightblue;
+    box-shadow: 10px 10px 5px 0px rgba(98,106,163,1);
+}
+
+header h1{
+     color: darkblue;
+     text-align: center;
+     padding: 39px;
+}
+
+.banner-image{
+    height: 20%;
+    margin-top: 30px;
+    box-shadow: 5px 10px 5px 5px rgba(98,106,163,1);
+   
+}
+
+.banner-image img{
+    width: 100%;
+    height: 217px;
+    border-radius: 10px;
+}
+
+h3{
+    color: darkblue;
+    padding: 20px;
+}
+
+h2{
+    color: darkblue;
+    padding: 20px;
+}
+
+.ingredients{
+    display: inline-block;
+    width: 47%;
+    box-shadow: 5px 10px 5px 5px rgba(98,106,163,1);
+    margin-top: 36px;
+    margin-left: 20px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.list-ingredients{
+    list-style-type: none;
+}
+
+.list-ingredients li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+aside{
+    width: 32%;
+    float:right;
+    margin-top: 36px;
+    box-shadow: 5px 10px 5px 5px rgba(98,106,163,1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: antiquewhite;
+    margin-right: 20px;
+}
+
+aside p{
+    font-size: 20px;
+}
+
+input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+
+.preparation{
+    display: inline-block;
+    width: 47%;
+    box-shadow: 5px 10px 5px 5px rgba(98,106,163,1);
+    margin-top: 36px;
+    margin-left: 20px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.preparation ul{
+    list-style: decimal;
+}
+
+
+.preparation ul li{
+    font-size: 20px;
+
+}
+
+footer{
+    height: 10%;
+    background-color: lightblue;
+    box-shadow: 10px 10px 5px 0px rgba(98,106,163,1);
+    padding: 20px;
+    margin-top: 24px;
+    text-align: center;
+}
